@@ -1,6 +1,7 @@
 *
 !.gitignore
 !.gitkeep
+!downloads/
 !README.md
 !download.bash
 !install.bash
