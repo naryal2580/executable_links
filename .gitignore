@@ -1,0 +1,7 @@
+*
+!.gitignore
+!README.md
+!download.bash
+!install.bash
+!urls.txt
+!urls.json
