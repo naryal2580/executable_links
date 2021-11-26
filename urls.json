@@ -1,0 +1,5 @@
+{
+	"amass": "https://github.com/OWASP/Amass/releases/download/v3.15.0/amass_linux_amd64.zip",
+	"assetfinder": "https://github.com/tomnomnom/assetfinder/releases/download/v0.1.1/assetfinder-linux-amd64-0.1.1.tgz",
+	"subfinder": "https://github.com/projectdiscovery/subfinder/releases/download/v2.4.9/subfinder_2.4.9_linux_amd64.zip"
+}
