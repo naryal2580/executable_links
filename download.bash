@@ -1,7 +1,7 @@
 #!/bin/bash
 
 \cat urls.json | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" > urls.txt
-rm -r ./downloads/*
+rm -r ./downloads/* 2> /dev/null
 echo "Downloading executables off the Cloud!"
 wget -qP ./downloads -i urls.txt
 
