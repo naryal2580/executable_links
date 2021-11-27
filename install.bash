@@ -15,6 +15,7 @@ for file in $(\ls); do
 	fi
 done
 
+cd ..
 
 # TODO: Recirsively list and select files based on file name within "urls.json" using jq
 tool_names=$(\cat urls.json | jq 'keys[]' | cut -d '"' -f 2)
